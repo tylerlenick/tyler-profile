@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Header } from './components/Header';
 import { Tasks } from './components/Tasks';
+import { Navbar } from './components/Navbar'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
       <Header name={name} title={'Hey'} />
       <Tasks tasks={tasks}/>
     </div>
