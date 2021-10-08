@@ -1,26 +1,27 @@
 import PropTypes from 'prop-types'
 import { Button } from './Button'
+import Typical from 'react-typical'
 
-export const Header = ({title, name}) => {
-    const onClick = () => {
-        console.log('hehehehehee')
-    }
-
+export const Header = () => {
     return (
         <header className='header'>
-            <h1>{title} {name} FROM REACT!</h1>
-            <Button color='green' onClick={onClick}  />
+            <h1 className="text-7x1 ml-10 md:ml-80 mt-40">Tyler Lenick</h1>
+            <h1 className="text-7x1 ml-10 md:ml-80">
+                <Typical
+                    steps={["Hi, I'm Tyler", 1000, "Full Stack Web Developer", 5000]}
+                />
+            </h1>
         </header>
     )
 }
 
+//DEFAULT AND PROP TYPES FOR REFERENCE
+/*
 Header.propTypes = {
-    title: PropTypes.string
 }
-
 Header.defaultProps = {
-    title: 'default'
 }
+*/
 
 //LOCAL STYLE
 /*const headingStyle = {
