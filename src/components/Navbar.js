@@ -10,12 +10,12 @@ export const Navbar = () => {
                         <a href="#projects" className="mr-5 hover:text-white">
                             Projects
                         </a>
-                        <a href="#skills" className="mr-5 hover:text-white">
+                        <a href="#contact-form" className="mr-5 hover:text-white">
                             Contact
                         </a>
-                        <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                        <a href="./tyler_lenick_resume.pdf" target="_blank"><button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                             Resume
-                        </button>
+                        </button></a>
                     </nav>
                 </div>
             </header>
