@@ -1,6 +1,8 @@
 import { Header } from './components/Header';
 import { Navbar } from './components/Navbar';
 import { Contact } from './components/Contact';
+import { Projects } from './components/Projects';
+
 
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
+      <Projects />
       <Contact />
     </div>
   );
